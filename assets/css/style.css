@@ -26,11 +26,14 @@ h3 {
   font-style: normal;
 }
 
+.border__gray {
+  border-bottom: 1px solid #cccccc;
+}
+
 /* HEADER */
 .header {
   width: 100%;
   /* position: fixed; */
-  border-bottom: 1px solid #cccccc;
 }
 .navbar {
   display: flex;
@@ -55,7 +58,7 @@ h3 {
 .main__novedades,
 .main__populares {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto 40px auto;
   padding: 0 15px;
 }
 .novedades__content,
